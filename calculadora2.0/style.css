@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #f7f7f7;
+    font-family: Arial, sans-serif;
+}
+
+.calculator{
+    width: 300px;
+    background-color: #464646;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+}
+
+.calculator h1 {
+    text-align: center;
+    color: #fff;
+    padding: 15px 10px 10px;
+    font-size: 1.6rem;
+}
+
+#display{
+    height: 75px;
+    padding: 20px;
+    text-align: right;
+    color: #fff;
+    font-size: 2.5rem;
+    background-color: #1e1e1e;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    overflow: auto;
+}
+
+#buttons{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+button {
+  padding: 20px;
+  font-size: 1.5rem;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  background-color: #5e5e5e;
+  color: #fff;
+  transition: background 0.2s ease;
+}
+
+button:hover {
+  background-color: #777;
+}
+
+button:active {
+  background-color: #333;
+}
+
+button:nth-child(n+12) {
+    background-color: #e53935;
+}
+
+button:nth-child(n+12):hover {
+    background-color: #c62828;
+}
+
+/* Estilo específico para operadores e funções */
+button:nth-child(n+13):not(:last-child) {
+  background-color: #fe9241;
+}
+
+button:nth-child(n+13):not(:last-child):hover {
+  background-color: #e07b25;
+}
+
+/* Botão de igual destacado */
+button:last-child {
+  background-color: #4caf50;
+}
+
+button:last-child:hover {
+  background-color: #449d48;
+}
+

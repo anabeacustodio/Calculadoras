@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Calculadora 2.0</title>
+</head>
+<body>
+    <div class="calculator">
+        <h1>Conta comigo!</h1>
+        <div id="display">0</div>
+
+        <div id="buttons">
+            <!-- Números -->
+            <button onclick="inserirNumero(1)">1</button>
+            <button onclick="inserirNumero(2)">2</button>
+            <button onclick="inserirNumero(3)">3</button>
+            <button onclick="inserirNumero(4)">4</button>
+            <button onclick="inserirNumero(5)">5</button>
+            <button onclick="inserirNumero(6)">6</button>
+            <button onclick="inserirNumero(7)">7</button>
+            <button onclick="inserirNumero(8)">8</button>
+            <button onclick="inserirNumero(9)">9</button>
+            <button onclick="inserirNumero(0)">0</button>
+
+            <!-- Pontuação e limpezaa -->
+            <button onclick="inserirPonto()">,</button>
+            <button onclick="limparTudo()">AC</button>
+
+            <!-- Operadores -->
+            <button onclick="selecionarOperador('+')">+</button>
+            <button onclick="selecionarOperador('-')">-</button>
+            <button onclick="selecionarOperador('/')">/</button>
+            <button onclick="selecionarOperador('*')">x</button>
+
+            <!-- Resultado -->
+            <button onclick="calcular()">=</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
