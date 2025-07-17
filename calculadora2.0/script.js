@@ -25,8 +25,13 @@ function calcular() {
   } else if (operador === '-') {
     total = parseFloat(n1) - parseFloat(n2);
   } else if (operador === '*') {
-    total = parseFloat(n1) * parseFloat(n2);
+    total = parseFloat(n1) / parseFloat(n2);
   } else if (operador === '/') {
+    if (parseFloat(n2) === 0) {
+      displayValor = "0";
+      document.getElementById('display').textContent = displayValor;
+      return;
+    }
     total = parseFloat(n1) / parseFloat(n2);
   }
 
