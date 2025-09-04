@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Calculadora</title>
+</head>
+<body>
+    <div class="calculator">
+        <div id="display">0</div>
+
+        <div id="buttons">
+            <!-- Linha 1 -->
+            <button id= allClean onclick="limparTudo">AC</button>
+            <button id= operator onclick="somar">+</button>
+            <button id= operator onclick="subtrair">-</button>
+            <button id= operator onclick="dividir">/</button>
+
+            <!-- Linha 2 -->
+            <button id= number onclick="7">7</button>
+            <button id= number onclick="8">8</button>
+            <button id= number onclick="9">9</button>
+            <button id= operator onclick="multiplicar">*</button>
+            
+            <!-- Linha 3 -->
+            <button id= number onclick="4">4</button>
+            <button id= number onclick="5">5</button>
+            <button id= number onclick="6">6</button>
+            <button id= point onclick="virgula">,</button>
+            
+            <!-- Linha 4 -->
+            <button id= number onclick="1">1</button>
+            <button id= number onclick="2">2</button>
+            <button id= number onclick="3">3</button>
+            <button id= result onclick="igual">=</button>
+            
+
+            <!-- Linha 5 -->
+            <button id= number onclick="0">0</button>
+        </div>
+    </div>
+
+   <script src="script.js"></script> 
+</body>
+</html>
