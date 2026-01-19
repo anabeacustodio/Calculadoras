@@ -12,32 +12,31 @@
 
         <div id="buttons">
             <!-- Linha 1 -->
-            <button id= allClean onclick="limparTudo">AC</button>
-            <button id= operator onclick="somar">+</button>
-            <button id= operator onclick="subtrair">-</button>
-            <button id= operator onclick="dividir">/</button>
+            <button id= numberL1 onclick="acrescentarNumero('7')">7</button>
+            <button id= numberL1 onclick="acrescentarNumero('8')">8</button>
+            <button id= numberL1 onclick="acrescentarNumero('9')">9</button>
+            <button id= operator onclick="escolherOperacao('/')">/</button>
 
             <!-- Linha 2 -->
-            <button id= number onclick="7">7</button>
-            <button id= number onclick="8">8</button>
-            <button id= number onclick="9">9</button>
-            <button id= operator onclick="multiplicar">*</button>
-            
+            <button id= numberL2 onclick="acrescentarNumero('4')">4</button>
+            <button id= numberL2 onclick="acrescentarNumero('5')">5</button>
+            <button id= numberL2 onclick="acrescentarNumero('6')">6</button>
+            <button id= operator onclick="escolherOperacao('*')">*</button>
+
             <!-- Linha 3 -->
-            <button id= number onclick="4">4</button>
-            <button id= number onclick="5">5</button>
-            <button id= number onclick="6">6</button>
-            <button id= point onclick="virgula">,</button>
+            <button id= numberL3 onclick="acrescentarNumero('1')">1</button>
+            <button id= numberL3 onclick="acrescentarNumero('2')">2</button>
+            <button id= numberL3 onclick="acrescentarNumero('3')">3</button>
+            <button id= operator onclick="escolherOperacao('-')">-</button>
             
             <!-- Linha 4 -->
-            <button id= number onclick="1">1</button>
-            <button id= number onclick="2">2</button>
-            <button id= number onclick="3">3</button>
-            <button id= result onclick="igual">=</button>
-            
+            <button id= numberL4 onclick="acrescentarNumero('0')">0</button>
+            <button id= point onclick="acrescentarDecimal()">,</button>
+            <button id= result onclick="calcular()">=</button>
+            <button id= operator onclick="escolherOperacao('+')">+</button>
 
             <!-- Linha 5 -->
-            <button id= number onclick="0">0</button>
+            <button id= allClean onclick="limpar()">AC</button>
         </div>
     </div>
 
