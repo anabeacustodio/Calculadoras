@@ -13,12 +13,11 @@ body{
     height: 100vh;
     background-color: #fff;
     font-family: Arial, sans-serif;
-    
 }
 
 .calculator{
     width: 330px;
-    background-color: black;
+    background-color: #c8ecfe;
 }
 
 #display{
@@ -28,7 +27,7 @@ body{
     text-align: right;
     color: #fff;
     font-size: 2.5rem;
-    background-color: #908c8c;
+    background-color: #9c9ba1;
     display: flex;
     align-items: center;
     justify-content: flex-end;
@@ -38,26 +37,46 @@ body{
 #buttons{
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    background-color: #000000;
+    background-color: #c8ecfe;
     margin: 10px;
+    
+    #operator{
+        background-color: #fd6202;
+    }
+
+    #numberL1{
+        background-color: #fbd9f0;
+    }
+
+    #numberL2{
+        background-color: #f7ebbd;
+    }
+
+    #numberL3{
+        background-color: #cae4c8;
+    }
+
+    #numberL4{
+        background-color: #e7cdef;
+    }
+
+    #point{
+        background-color: #e7cdef;
+    }
+
+    #result{
+        background-color: #e7cdef;
+    }
+
+    #allClean{
+        background-color: #e7e9f8;
+    }
 }
 
 button{
     padding: 20px;
     font-size: 1.5rem;
-    background-color: rgba(70,70,70,0.5);
-    color: #fff;
+    color: #545454;
     border-radius: 50%;
-}
-
-#allClean{
-    background-color: #aa2222;
-}
-
-#point{
-    background-color: rgba(70,70,70,0.5);
-}
-
-#result{
-    background-color: #1a421c;
+    margin: 2px;
 }
