@@ -1,9 +1,9 @@
 # 💻 Projetos de Calculadoras
-Este repositório reúne três versões de calculadoras que desenvolvi como desafio pessoal para praticar e evoluir meus conhecimentos em HTML, CSS e JavaScript.
+Este repositório reúne quatro versões de calculadoras que desenvolvi como desafio pessoal para praticar e evoluir meus conhecimentos em HTML, CSS e JavaScript.
 
 ---
 
-## 🔢 Calculadora 1.0
+## 🔢 Calculadora 1
 📍 **Descrição:**  
 Versão inicial da calculadora. Executa operações básicas: adição, subtração, multiplicação e divisão.
 
@@ -14,7 +14,7 @@ Versão inicial da calculadora. Executa operações básicas: adição, subtraç
 
 ---
 
-## ✨ Calculadora 2.0
+## ✨ Calculadora 2
 📍 **Descrição:**  
 Adiciona melhorias de layout e uma estrutura de código mais organizada. Inclui um alert e tratamento simples de erros, como divisão por zero.
 
@@ -25,10 +25,21 @@ Adiciona melhorias de layout e uma estrutura de código mais organizada. Inclui 
 
 ---
 
-## ⚙️ Calculadora 3.0
+## ⚙️ Calculadora 3
 📍 **Descrição:**  
 Versão simplificada e interativa. Usa prompt() para entrada de dados e exibe o resultado diretamente na tela.
 
 🛠️ **Tecnologias usadas:**  
 - HTML 
+- JavaScript
+
+---
+
+## 🐻 Calculadora 4
+📍 **Descrição:**  
+Versão completa de uma calculadora simples real, dedicada a parte estética, com visual retrô e fofo estilo papelaria.
+
+🛠️ **Tecnologias usadas:**  
+- HTML 
+- CSS
 - JavaScript
